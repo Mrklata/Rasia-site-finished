@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ac63551b-a15d-4938-ae92-66e7658b9dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stronaWuja/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/stronaWuja/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584619207900</updated>
-      <workItem from="1584619245744" duration="2846000" />
+      <workItem from="1584619245744" duration="3172000" />
     </task>
     <task id="LOCAL-00001" summary="Creating requirements.txt">
       <created>1584621494573</created>
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584621494573</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add heroku in settings.py">
+      <created>1584622154978</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584622154978</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,13 +107,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Creating requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating requirements.txt" />
+    <MESSAGE value="Add heroku in settings.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add heroku in settings.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584621493992">
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584622154716">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584621493992" />
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584622154716" />
     <state x="682" y="240" width="908" height="445" key="EditFileWatcherDialog" timestamp="1584620127433">
       <screen x="0" y="27" width="1600" height="873" />
     </state>

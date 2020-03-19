@@ -19,7 +19,7 @@ class Image(models.Model):
         ("back", "zaplecze"),
     )
 
-    description = models.TextField(max_length=3000, help_text="Max 15 linijek")
+    description = models.TextField(max_length=3000, help_text="Max 15 linijek", null=True, blank=True)
     image = models.ImageField(upload_to='media')
     section = models.CharField(max_length=100, choices=SECTION)
     image_thumbnail = ImageSpecField(source='image', processors=[ResizeToFit(height=300)], format='JPEG',
