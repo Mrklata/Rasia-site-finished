@@ -18,10 +18,20 @@ body {
 
 .title {
   text-align: center;
+  height: auto;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: flex-end;
+}
+.title h1 {
+  margin-top: 20px;
   color: #ff2b3e;
   font-size: 50px;
   font-family: "DejaVu Serif", sans-serif;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px #000000;
 }
 
 #emptyDiv {
@@ -38,7 +48,7 @@ body {
   border-style: solid;
   display: flex;
   align-items: center;
-  background: black;
+  background: #ffffff;
 }
 
 #left {
@@ -51,7 +61,7 @@ body {
   background: #ff2b3e;
 }
 #left img:hover {
-  background: white;
+  background: #000000;
 }
 
 #center {
@@ -83,15 +93,17 @@ body {
   font-family: "DejaVu Serif", sans-serif;
   text-decoration: none;
   height: 400px;
+  margin-top: 50px;
 }
 
 #contacts {
-  background: black;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   text-align: center;
   width: 100vw;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 @media only screen and (max-width: 1500px) {
   #contacts {
@@ -193,8 +205,8 @@ body {
 #backgroundMain {
   display: flex;
   width: 100vw;
-  height: 290px;
-  background-color: black;
+  height: 240px;
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */
