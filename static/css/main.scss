@@ -120,9 +120,12 @@ body {
   justify-content: center;
   text-align: center;
   width: 100vw;
-  top: 100%;
   margin-top: 50px;
+  @media only screen and (max-width: 1500px){
+  position: absolute;
+    top: 100%;
 
+}
   p {
 
     color: #ff2b3e;
@@ -249,3 +252,5 @@ body {
   //background-size: cover;
   //background-blend-mode: soft-light;
 }
+
+
