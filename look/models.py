@@ -34,6 +34,5 @@ class Movie(models.Model):
     description = models.TextField(max_length=3000, help_text="Max 15 linijek")
 
 
-class BackgroundImage(models.Model):
-    background = models.ImageField(upload_to='bcg')
+
 
