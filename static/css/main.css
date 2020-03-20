@@ -12,26 +12,32 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.6);
   margin: 0;
 }
 
 .title {
   text-align: center;
-  color: #ffb53b;
+  color: #ff2b3e;
   font-size: 50px;
   font-family: "DejaVu Serif", sans-serif;
   -webkit-text-stroke: 1px black;
 }
 
+#emptyDiv {
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+}
+
 .title-site {
+  position: fixed;
   height: 100px;
   width: 100vw;
   font-size: 40px;
   border-style: solid;
   display: flex;
   align-items: center;
-  background: #ffffff;
+  background: black;
 }
 
 #left {
@@ -41,10 +47,10 @@ body {
   height: 100px;
   width: 100px;
   transition: background 0.3s;
-  background: #ffb53b;
+  background: #ff2b3e;
 }
 #left img:hover {
-  background: #000000;
+  background: white;
 }
 
 #center {
@@ -52,7 +58,7 @@ body {
   margin: 0 auto;
 }
 #center h1 {
-  color: #ffb53b;
+  color: #ff2b3e;
   font-family: "Apple Chancery", cursive;
   -webkit-text-stroke: 1px black;
 }
@@ -63,42 +69,52 @@ body {
   justify-content: center;
 }
 #logoContainer img {
+  position: absolute;
   height: 290px;
   width: auto;
 }
 
 #contentContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   color: #EDF7F6;
   font-size: 30px;
   font-family: "DejaVu Serif", sans-serif;
   text-decoration: none;
+  height: 400px;
 }
 
 #contacts {
-  margin-left: 25px;
-  width: 40%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  bottom: 10px;
+  margin-top: 40px;
 }
 #contacts p {
-  margin-bottom: 10px;
+  color: #ff2b3e;
+  font-size: 30px;
+  font-family: "DejaVu Serif", sans-serif;
+  width: 400px;
+  margin: 20px;
 }
-#contacts p:not(:first-child) {
-  margin-top: 10px;
-}
-#contacts p:first-child {
-  margin-top: 0;
+#contacts a {
+  color: #ff2b3e;
+  font-size: 30px;
+  font-family: "DejaVu Serif", sans-serif;
+  width: 400px;
 }
 
 .pages-images {
   display: flex;
   flex-direction: column;
   width: 40%;
-  text-align: end;
-  margin-right: 25px;
+  text-align: -webkit-center;
 }
 .pages-images a {
-  color: #EDF7F6;
+  color: #ff2b3e;
   font-size: 40px;
   font-family: "DejaVu Serif", sans-serif;
   transition: font-size 0.2s, color 0.2s;
@@ -106,7 +122,6 @@ body {
 }
 .pages-images a:hover {
   font-size: 80px;
-  color: #ffb53b;
 }
 .pages-images img {
   height: 300px;
@@ -162,6 +177,13 @@ body {
   width: 950px;
   background: white;
   border-style: solid;
+}
+
+#backgroundMain {
+  display: flex;
+  width: 100vw;
+  height: 290px;
+  background-color: black;
 }
 
 /*# sourceMappingURL=main.css.map */

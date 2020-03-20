@@ -9,27 +9,25 @@
 <div id="logoContainer">
     <img src="{% static 'img/main_logo.png' %} " alt="logo">
 </div>
+<div id="backgroundMain">
+</div>
 <h1 class="title"> Meble na wymiar </h1>
 <div id="contentContainer">
     <div class="pages-images">
-        <a href={% url 'bathroom' %}> Łazienki </a>
-        <a href={% url 'kitchen' %}> Kuchnie </a>
-        <a href={% url 'closet' %}> Szafy </a>
-        <a href={% url 'beds' %}> Łóżka </a>
-        <a href={% url 'other' %}> Inne </a>
-        <a href={% url 'movies' %}> Filmy </a>
-        <a href={% url 'from_back' %}> Zaplecze </a>
+        <a href={% url 'bathroom' %}> ŁAZIENKI </a>
+        <a href={% url 'kitchen' %}> KUCHNIE </a>
+        <a href={% url 'closet' %}> SZAFY </a>
+        <a href={% url 'beds' %}> ŁÓŻKA </a>
+        <a href={% url 'other' %}> INNE </a>
+        <a href={% url 'movies' %}> FILMY </a>
+        <a href={% url 'from_back' %}> ZAPLECZE </a>
 
-    </div>
-    <div id="contacts">
-        <p> Bartosz Kowalczyk </p>
-        <p> +48 506 774 568 </p>
-        <p> rasia.nawymiar@gmail.com </p>
-        <p> Poznań</p>
-        <p> os. Bohaterów II Wojny Światowej 38</p>
     </div>
 </div>
-<div id="background" style="background-image: url('{% static "img/bcg.jpg" %}')"></div>
-
+<div id="contacts">
+    <p> Bartosz Kowalczyk <br/> <a href="tel:506-744-568">506 774 568</a></p>
+    <p> email: <a href="mailto:rasia.nawymiar@gmail.com">rasia.nawymiar@gmail.com</a></p>
+    <p> Poznań os. Bohaterów II Wojny Światowej 38</p>
+</div>
 </body>
 </html>
