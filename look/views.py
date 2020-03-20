@@ -1,10 +1,9 @@
 from django.shortcuts import render
-from look.models import Image, Movie, BackgroundImage
+from look.models import Image, Movie
 
 
 def main_site(request):
-    background = BackgroundImage.objects.all()[0]
-    return render(request, 'look/main_site.html', {'background': background})
+    return render(request, 'look/main_site.html')
 
 
 def bathroom(request):

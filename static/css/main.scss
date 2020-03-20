@@ -1,7 +1,8 @@
 #background {
-  position: absolute;
-  z-index: -1;
-  bottom: 0;
+  background: url(/static/img/IMG_20190730_164544.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 
   img {
     z-index: -1;
@@ -15,6 +16,7 @@ body {
   margin: 0;
   background: url("/static/img/IMG_20190730_164544.jpg");
   background-size: cover;
+
 }
 
 .title {
@@ -118,9 +120,8 @@ body {
   justify-content: center;
   text-align: center;
   width: 100vw;
-  position: absolute;
-  margin-top: 40px;
-  bottom: 0;
+  top: 100%;
+  margin-top: 50px;
 
   p {
 
