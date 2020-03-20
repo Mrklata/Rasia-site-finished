@@ -126,6 +126,10 @@ body {
     top: 100%;
 
 }
+  @media only screen and (max-height: 1344px){
+    position: unset;
+    
+  }
   p {
 
     color: #ff2b3e;

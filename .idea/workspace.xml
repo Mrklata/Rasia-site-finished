@@ -91,7 +91,7 @@
       <updated>1584619207900</updated>
       <workItem from="1584619245744" duration="3641000" />
       <workItem from="1584688093568" duration="10060000" />
-      <workItem from="1584699524403" duration="6459000" />
+      <workItem from="1584699524403" duration="7367000" />
     </task>
     <task id="LOCAL-00001" summary="Creating requirements.txt">
       <created>1584621494573</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584706417157</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding media query to css">
+      <created>1584707392680</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584707392680</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,13 +180,14 @@
     <MESSAGE value="adding background" />
     <MESSAGE value="contacts fixed" />
     <MESSAGE value="Deleting Background model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleting Background model" />
+    <MESSAGE value="adding media query to css" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding media query to css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584706416950">
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584707392499">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584706416950" />
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584707392499" />
     <state x="682" y="240" width="908" height="445" key="EditFileWatcherDialog" timestamp="1584620127433">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
@@ -204,10 +212,10 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state width="754" height="219" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1584707087631" />
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584706433466">
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584707458907">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1584706433466" />
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1584707458907" />
     <state x="568" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584693222525">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
