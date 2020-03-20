@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac63551b-a15d-4938-ae92-66e7658b9dbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/look/kitchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/look/kitchen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stronaWuja/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/stronaWuja/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584619207900</updated>
       <workItem from="1584619245744" duration="3641000" />
-      <workItem from="1584688093568" duration="5389000" />
+      <workItem from="1584688093568" duration="5682000" />
     </task>
     <task id="LOCAL-00001" summary="Creating requirements.txt">
       <created>1584621494573</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584693246978</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changing kitchen.html">
+      <created>1584693507879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584693507879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,13 +133,14 @@
     <MESSAGE value="Add heroku in settings.py" />
     <MESSAGE value="Add blank to description" />
     <MESSAGE value="Changing css to client preferences" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing css to client preferences" />
+    <MESSAGE value="Changing kitchen.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing kitchen.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584693246548">
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584693507535">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584693246548" />
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584693507535" />
     <state x="682" y="240" width="908" height="445" key="EditFileWatcherDialog" timestamp="1584620127433">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
@@ -157,10 +165,10 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state width="754" height="219" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1584689825808" />
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584693271935">
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584693528647">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1584693271935" />
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1584693528647" />
     <state x="568" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584693222525">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
