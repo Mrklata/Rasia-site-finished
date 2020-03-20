@@ -1,15 +1,3 @@
-#background {
-  background: url(/static/img/IMG_20190730_164544.jpg);
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-}
-#background img {
-  z-index: -1;
-  width: 100vw;
-  height: 100vw;
-}
-
 body {
   margin: 0;
   background: url("/static/img/bcg.jpg");
@@ -108,7 +96,7 @@ body {
 @media only screen and (max-width: 1500px) {
   #contacts {
     position: absolute;
-    top: 100%;
+    bottom: 0;
   }
 }
 @media only screen and (max-height: 1344px) {

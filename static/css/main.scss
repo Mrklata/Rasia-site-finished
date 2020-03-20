@@ -1,15 +1,15 @@
-#background {
-  background: url(/static/img/IMG_20190730_164544.jpg);
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-
-  img {
-    z-index: -1;
-    width: 100vw;
-    height: 100vw;
-  }
-}
+//#background {
+//  background: url(/static/img/IMG_20190730_164544.jpg);
+//  background-size: cover;
+//  margin: 0;
+//  padding: 0;
+//
+//  img {
+//    z-index: -1;
+//    width: 100vw;
+//    height: 100vw;
+//  }
+//}
 
 body {
   //background-color: rgba(0, 0, 0, 0.6);
@@ -137,7 +137,7 @@ body {
  flex-wrap: wrap;
   @media only screen and (max-width: 1500px) {
     position: absolute;
-    top: 100%;
+    bottom: 0;
 
   }
   @media only screen and (max-height: 1344px) {
