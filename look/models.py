@@ -25,9 +25,15 @@ class Image(models.Model):
     image_thumbnail = ImageSpecField(source='image', processors=[ResizeToFit(height=300)], format='JPEG',
                                      options={'quality': 70})
 
+    def __str__(self):
+        return self.description
+
 
 class Movie(models.Model):
     movie = EmbedVideoField()
     description = models.TextField(max_length=3000, help_text="Max 15 linijek")
 
-# Create your models here.
+
+class BackgroundImage(models.Model):
+    background = models.ImageField(upload_to='bcg')
+

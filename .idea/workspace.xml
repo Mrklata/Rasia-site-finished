@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63551b-a15d-4938-ae92-66e7658b9dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/look/migrations/0002_auto_20200320_0950.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/look/migrations/0003_auto_20200320_1006.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/bcg/IMG_20191211_154722.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/bcg/IMG_20191217_003543.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/IMG_20191211_154722.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/IMG_20190730_164544.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stronaWuja/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/stronaWuja/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/look/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/look/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/look/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/look/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/look/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/look/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/look/kitchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/look/kitchen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/look/main_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/look/main_site.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,7 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
@@ -84,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584619207900</updated>
       <workItem from="1584619245744" duration="3641000" />
-      <workItem from="1584688093568" duration="5682000" />
+      <workItem from="1584688093568" duration="10060000" />
+      <workItem from="1584699524403" duration="3803000" />
     </task>
     <task id="LOCAL-00001" summary="Creating requirements.txt">
       <created>1584621494573</created>
@@ -121,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584693507879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changing html files adding div">
+      <created>1584693940408</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584693940408</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,13 +160,14 @@
     <MESSAGE value="Add blank to description" />
     <MESSAGE value="Changing css to client preferences" />
     <MESSAGE value="Changing kitchen.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing kitchen.html" />
+    <MESSAGE value="Changing html files adding div" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing html files adding div" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584693507535">
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584693940072">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584693507535" />
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584693940072" />
     <state x="682" y="240" width="908" height="445" key="EditFileWatcherDialog" timestamp="1584620127433">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
@@ -149,26 +176,26 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="983" y="220" width="424" height="484" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1584620390701" />
-    <state width="754" height="219" key="GridCell.Tab.0.bottom" timestamp="1584689825809">
+    <state width="1554" height="219" key="GridCell.Tab.0.bottom" timestamp="1584699510536">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="754" height="219" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1584689825809" />
-    <state width="754" height="219" key="GridCell.Tab.0.center" timestamp="1584689825808">
+    <state width="1554" height="219" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1584699510536" />
+    <state width="1554" height="219" key="GridCell.Tab.0.center" timestamp="1584699510536">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="754" height="219" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1584689825808" />
-    <state width="754" height="219" key="GridCell.Tab.0.left" timestamp="1584689825806">
+    <state width="1554" height="219" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1584699510536" />
+    <state width="1554" height="219" key="GridCell.Tab.0.left" timestamp="1584699510536">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="754" height="219" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1584689825806" />
-    <state width="754" height="219" key="GridCell.Tab.0.right" timestamp="1584689825808">
+    <state width="1554" height="219" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1584699510536" />
+    <state width="1554" height="219" key="GridCell.Tab.0.right" timestamp="1584699510536">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="754" height="219" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1584689825808" />
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584693528647">
+    <state width="1554" height="219" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1584699510536" />
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584693956319">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1584693528647" />
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1584693956318" />
     <state x="568" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584693222525">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
