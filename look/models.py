@@ -2,6 +2,7 @@ from django.db import models
 from embed_video.fields import EmbedVideoField
 from imagekit.models import ImageSpecField
 from imagekit.processors import ResizeToFit
+from meta.models import ModelMeta
 
 
 class Contact(models.Model):
@@ -34,5 +35,17 @@ class Movie(models.Model):
     description = models.TextField(max_length=3000, help_text="Max 15 linijek")
 
 
+class Seo(ModelMeta, models.Model):
+    name = models.CharField(max_length=50)
+    description = models.TextField()
+    image = models.ImageField(upload_to='meta')
 
+    _metadata = {
+        'title': 'name',
+        'description': 'desscription',
+        'image': 'get_meta_image',
+    }
 
+    def get_meta_image(self):
+        if self.image:
+            return self.image.url

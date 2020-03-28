@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63551b-a15d-4938-ae92-66e7658b9dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/bcg_2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/look/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/look/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,7 +92,9 @@
       <updated>1584619207900</updated>
       <workItem from="1584619245744" duration="3641000" />
       <workItem from="1584688093568" duration="10060000" />
-      <workItem from="1584699524403" duration="11666000" />
+      <workItem from="1584699524403" duration="12493000" />
+      <workItem from="1584951618932" duration="1631000" />
+      <workItem from="1585056163425" duration="2303000" />
     </task>
     <task id="LOCAL-00001" summary="Creating requirements.txt">
       <created>1584621494573</created>
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584711366693</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixing position">
+      <created>1584717466206</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584717466206</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,13 +214,14 @@
     <MESSAGE value="adding media query to css" />
     <MESSAGE value="changing background" />
     <MESSAGE value="Changing colors and fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing colors and fonts" />
+    <MESSAGE value="Fixing position" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing position" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584711366498">
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584717465995">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584711366498" />
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584717465995" />
     <state x="682" y="240" width="908" height="445" key="EditFileWatcherDialog" timestamp="1584620127433">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
@@ -220,26 +230,26 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="983" y="220" width="424" height="484" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1584620390701" />
-    <state width="754" height="219" key="GridCell.Tab.0.bottom" timestamp="1584707087632">
+    <state width="754" height="219" key="GridCell.Tab.0.bottom" timestamp="1584733900061">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="754" height="219" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1584707087632" />
-    <state width="754" height="219" key="GridCell.Tab.0.center" timestamp="1584707087629">
+    <state width="754" height="219" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1584733900061" />
+    <state width="754" height="219" key="GridCell.Tab.0.center" timestamp="1584733900061">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="754" height="219" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1584707087629" />
-    <state width="754" height="219" key="GridCell.Tab.0.left" timestamp="1584707087628">
+    <state width="754" height="219" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1584733900061" />
+    <state width="754" height="219" key="GridCell.Tab.0.left" timestamp="1584733900060">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="754" height="219" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1584707087628" />
-    <state width="754" height="219" key="GridCell.Tab.0.right" timestamp="1584707087631">
+    <state width="754" height="219" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1584733900060" />
+    <state width="754" height="219" key="GridCell.Tab.0.right" timestamp="1584733900061">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state width="754" height="219" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1584707087631" />
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584711384094">
+    <state width="754" height="219" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1584733900061" />
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584717491146">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1584711384094" />
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1584717491146" />
     <state x="568" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584693222525">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
