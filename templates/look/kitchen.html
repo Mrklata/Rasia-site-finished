@@ -18,7 +18,7 @@
 <div class="loop-img">
     {% for i in file %}
     <div class="photos-sites">
-        <img src="{{ i.image.url }}" alt="img">
+        <img src="{{ i.image_thumbnail.url }}" alt="img">
         <div class="description">
             <p>{{ i.description|linebreaks }}</p>
         </div>

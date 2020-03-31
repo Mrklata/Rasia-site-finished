@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63551b-a15d-4938-ae92-66e7658b9dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/look/main_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/look/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/look/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/look/bathroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/look/bathroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/look/beds.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/look/beds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/look/closet.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/look/closet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/look/from_back.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/look/from_back.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/look/kitchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/look/kitchen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/look/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/look/other.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -95,6 +100,10 @@
       <workItem from="1584699524403" duration="12493000" />
       <workItem from="1584951618932" duration="1631000" />
       <workItem from="1585056163425" duration="2303000" />
+      <workItem from="1585382486011" duration="791000" />
+      <workItem from="1585476935584" duration="2381000" />
+      <workItem from="1585571717699" duration="303000" />
+      <workItem from="1585655961209" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="Creating requirements.txt">
       <created>1584621494573</created>
@@ -194,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584717466206</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Changing images to full resolution">
+      <created>1585382564289</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585382564289</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,20 +231,22 @@
     <MESSAGE value="changing background" />
     <MESSAGE value="Changing colors and fonts" />
     <MESSAGE value="Fixing position" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing position" />
+    <MESSAGE value="Changing images to full resolution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing images to full resolution" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1584717465995">
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2" timestamp="1585382563328">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1584717465995" />
+    <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1585382563328" />
     <state x="682" y="240" width="908" height="445" key="EditFileWatcherDialog" timestamp="1584620127433">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="682" y="240" width="908" height="445" key="EditFileWatcherDialog/0.27.1600.873@0.27.1600.873" timestamp="1584620127433" />
-    <state x="983" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584620390701">
-      <screen x="0" y="27" width="1600" height="873" />
+    <state x="1669" y="118" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585571822566">
+      <screen x="1024" y="0" width="1600" height="900" />
     </state>
+    <state x="1669" y="118" key="FileChooserDialogImpl/0.27.1024.741/1024.0.1600.900@1024.0.1600.900" timestamp="1585571822566" />
     <state x="983" y="220" width="424" height="484" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1584620390701" />
     <state width="754" height="219" key="GridCell.Tab.0.bottom" timestamp="1584733900061">
       <screen x="0" y="27" width="1600" height="873" />
@@ -246,10 +264,15 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state width="754" height="219" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1584733900061" />
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584717491146">
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1585382586272">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1584717491146" />
+    <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1585382586272" />
+    <state x="1070" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1585571717279">
+      <screen x="1024" y="0" width="1600" height="900" />
+    </state>
+    <state x="1070" y="291" key="com.intellij.ide.util.TipDialog/0.27.1024.741/1024.0.1600.900@1024.0.1600.900" timestamp="1585571717279" />
+    <state x="1070" y="291" key="com.intellij.ide.util.TipDialog/1024.0.1600.900/0.27.1024.741@1024.0.1600.900" timestamp="1585476939570" />
     <state x="568" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584693222525">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
