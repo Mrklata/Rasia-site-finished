@@ -92,14 +92,14 @@ body {
   width: 100vw;
   margin-top: 50px;
   flex-wrap: wrap;
+  position: absolute;
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1000px) {
   #contacts {
-    position: absolute;
     bottom: 0;
   }
 }
-@media only screen and (max-height: 1344px) {
+@media only screen and (max-height: 1500px) {
   #contacts {
     position: unset;
   }

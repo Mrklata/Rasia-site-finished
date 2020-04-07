@@ -39,4 +39,8 @@ def movies(request):
 def from_back(request):
     file = Image.objects.filter(section='back')
     return render(request, 'look/from_back.html', {'file': file})
+
+
+def main_try(request):
+    return render(request, 'look/main_2.html')
 # Create your views here.
