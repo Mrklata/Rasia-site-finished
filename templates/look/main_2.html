@@ -18,6 +18,9 @@
         <a href="#bottom">
             <button class="btn"><span>Kontakt</span></button>
         </a>
+        <a href="{% url 'movies' %}">
+            <button class="btn"><span>FILMY</span></button>
+        </a>
         <!--<p class="link">
           Design by
           <a href="https://dribbble.com/skytrip" target="_blank">SkyTrip</a>
@@ -71,17 +74,24 @@
     </div>
 </div>
 <div id="movies">
-    <div class="button_container">
-        <a href="{% url 'movies' %}">
-            <button class="btn"><span>FILMY</span></button>
-        </a>
-        <!--<p class="link">
-          Design by
-          <a href="https://dribbble.com/skytrip" target="_blank">SkyTrip</a>
-        </p>-->
-    </div>
-    <HR>
+    {#    <div id="movieImage">#}
+    {##}
+    {#        <a href="{% url 'movies' %}"> <img src="{% static 'img/movie.png' %}" alt="link"></a>#}
+    {#        <p>FILMY</p>#}
+    {##}
+    {#    </div>#}
+    {#    <div class="button_container">#}
+    {#        <a href="{% url 'movies' %}">#}
+    {#            <button class="btn"><span>FILMY</span></button>#}
+    {#        </a>#}
+    {#        <!--<p class="link">#}
+    {#          Design by#}
+    {#          <a href="https://dribbble.com/skytrip" target="_blank">SkyTrip</a>#}
+    {#        </p>-->#}
+    {#    </div>#}
 </div>
+<HR>
+
 <div id="contacts">
     <p id="bottom"> O NAS:<br>
         <img src="{% static 'img/logo_cont.png' %}" alt="contact">
