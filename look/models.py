@@ -42,7 +42,7 @@ class Seo(ModelMeta, models.Model):
 
     _metadata = {
         'title': 'name',
-        'description': 'desscription',
+        'description': 'description',
         'image': 'get_meta_image',
     }
 
