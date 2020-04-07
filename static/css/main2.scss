@@ -300,4 +300,19 @@ body {
 
 }
 
+#videosContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 5%;
+  right: 5%;
+}
 
+.video {
+  display: flex;
+  margin: 7px;
+  width: 950px;
+  background: white;
+  border-style: solid;
+
+}
