@@ -283,10 +283,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="css changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1380" y="83" width="875" height="719" key="CommitChangelistDialog2" timestamp="1586278224367">
+    <state x="1380" y="83" width="875" height="719" key="CommitChangelistDialog2" timestamp="1586291188050">
       <screen x="1024" y="0" width="1600" height="900" />
     </state>
-    <state x="1380" y="83" width="875" height="719" key="CommitChangelistDialog2/0.27.1024.741/1024.0.1600.900@0.27.1024.741" timestamp="1586278224367" />
+    <state x="1380" y="83" width="875" height="719" key="CommitChangelistDialog2/0.27.1024.741/1024.0.1600.900@0.27.1024.741" timestamp="1586291188050" />
     <state x="1386" y="0" key="CommitChangelistDialog2/0.27.1024.741/1024.0.1600.900@1024.0.1600.900" timestamp="1585665533742" />
     <state x="362" y="27" width="865" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1585382563328" />
     <state x="682" y="240" width="908" height="445" key="EditFileWatcherDialog" timestamp="1584620127433">
@@ -322,10 +322,10 @@
     <state width="978" height="227" key="GridCell.Tab.0.right/0.27.1024.741/1024.0.1600.900@0.27.1024.741" timestamp="1586288345735" />
     <state width="1554" height="227" key="GridCell.Tab.0.right/0.27.1024.741/1024.0.1600.900@1024.0.1600.900" timestamp="1586289038275" />
     <state width="754" height="219" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1584733900061" />
-    <state x="253" y="172" width="516" height="435" key="Vcs.Push.Dialog.v2" timestamp="1586278231981">
+    <state x="253" y="172" width="516" height="435" key="Vcs.Push.Dialog.v2" timestamp="1586291206513">
       <screen x="0" y="27" width="1024" height="741" />
     </state>
-    <state x="253" y="172" width="516" height="435" key="Vcs.Push.Dialog.v2/0.27.1024.741/1024.0.1600.900@0.27.1024.741" timestamp="1586278231981" />
+    <state x="253" y="172" width="516" height="435" key="Vcs.Push.Dialog.v2/0.27.1024.741/1024.0.1600.900@0.27.1024.741" timestamp="1586291206513" />
     <state x="1419" y="176" key="Vcs.Push.Dialog.v2/0.27.1024.741/1024.0.1600.900@1024.0.1600.900" timestamp="1585665543615" />
     <state x="395" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1585382586272" />
     <state x="1070" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1586010513779">
