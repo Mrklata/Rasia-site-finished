@@ -129,21 +129,10 @@ body {
 #contacts {
   background: #000000;
   display: flex;
-  position: absolute;
   width: 100vw;
   margin-top: 50px;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-@media only screen and (max-width: 1000px) {
-  #contacts {
-    bottom: 0;
-  }
-}
-@media only screen and (max-height: 1344px) {
-  #contacts {
-    position: unset;
-  }
 }
 #contacts p {
   color: #ff2b3e;
