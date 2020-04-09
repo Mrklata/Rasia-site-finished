@@ -192,6 +192,8 @@ body {
 }
 
 #homeLogo {
+  position: absolute;
+  height: 100px;
   display: flex;
   align-items: center;
   margin-left: 3%;
@@ -207,10 +209,11 @@ body {
 }
 
 .sideTitle {
-  position: absolute;
-  left: 45%;
-  right: 45%;
-  top: 15px;
+  height: 100px;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .sideTitle h1 {
   color: white;
